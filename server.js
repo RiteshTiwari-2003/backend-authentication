@@ -11,7 +11,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:3001',
+  origin: 'https://authentication-frontend-delta.vercel.app/',
   credentials: true
 }));
 app.use(express.json());
