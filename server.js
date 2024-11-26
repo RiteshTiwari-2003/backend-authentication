@@ -11,9 +11,10 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'https://authentication-frontend-delta.vercel.app/',
+  origin: 'https://authentication-frontend-delta.vercel.app',
   credentials: true
 }));
+
 app.use(express.json());
 
 // Routes
